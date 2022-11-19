@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bilheteira.Bilhete">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAIAAAQAAAAAAAACAAAAAAAAAAAAAAGAAIAAAE=</HashCode>
+      <FileName>Bilhete.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Espetaculo" />
+      <Property Name="Sala" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bilheteira.Espetaculo">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAABAAAAAAAAAAwAAAAAAAACABAAAAAAAAA=</HashCode>
+      <FileName>Espetaculo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TipoEspetaculo" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Bilhetes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bilheteira.Sala">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAEAA=</HashCode>
+      <FileName>Sala.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bilheteira.TipoEspetaculo">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>TipoEspetaculo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Espetaculos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bilheteira.Utilizador">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAQQAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Utilizador.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Vendas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Bilheteira.Venda">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACAACAAA=</HashCode>
+      <FileName>Venda.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Bilhete" />
+      <Property Name="Utilizador" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
